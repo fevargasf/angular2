@@ -1,0 +1,45 @@
+.primer-row {
+    margin-top: 20px;
+}
+
+.segundo-row {
+    margin-top: 40px;
+}
+
+.button-group {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5em;
+}
+
+.check {
+    margin-top: 10px;
+}
+
+.inpp {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.inpp input {
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.inpp p {
+    margin-left: 8px;
+}
+
+.primero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primero button {
+    height: 40px;
+    margin: 30px;
+    display: flex;
+    align-items: flex-end;
+}

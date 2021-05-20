@@ -1,0 +1,57 @@
+<div class="primero">
+    <app-modal (optenerExpedienteOut)="optenerExpediente($event)"></app-modal>
+    <button routerLink="/home" class="btn btn-success">Volver</button>
+</div>
+
+<form (ngSubmit)="expedientesData(formulario.value)" [formGroup]="formulario" *ngIf="formulario">
+    <div class="row primer-row">
+        <div class="col-md-6 ">
+            <div class="form-group">
+                <label for="">Expediente</label>
+                <select name="" id="" class="form-control" [formControlName]="'expediente'">
+                    <option >{{expediente}}</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="">Estado</label>
+                <select name="" id="" class="form-control" [formControlName]="'estado'">
+                    <option >{{estado}}</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="row segundo-row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="">Asunto</label>
+                <select name="" id="" class="form-control" [formControlName]="'asunto'">
+                    <option >{{asunto}}</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="">Oficina territorial</label>
+                <select name="" id="" class="form-control" [formControlName]="'territorial'">
+                    <option >{{oficina}}</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="row check">
+        <div class="inpp">
+            <input type="checkbox" name="" id="" formControlName="comunicacion">
+            <p>La comunicación de los tramites sera mediante su correo electronico</p>
+        </div>
+    </div>
+    <div class="button-group">
+        <button type="button" class="btn btn-primary form-control">Descargar resolución que le otorgo el permiso:
+    
+            <span class="material-icons">
+            picture_as_pdf
+            </span></button>
+        <button type="submit" [disabled]="!formulario.valid" class="btn btn-success form-control" (click)="siguienteListaEx(expediente)">Siguiente</button>
+    </div>
+</form>

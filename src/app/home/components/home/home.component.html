@@ -1,0 +1,23 @@
+<div class="container mt-5">
+    <div class="row header-user">
+        <div class="datos-inicio">
+            <!-- <h1>BIENVENIDO: {{nombreUsuario}}</h1> -->
+            <button class="btn btn-danger btn-volver">
+            <a target="_blank" href="http://sirena.corantioquia.gov.co/lago/CtrlIniciarApp?appCod=TRAMITE&urlRetorno=(http%3A%2F%2Fsirena.corantioquia.gov.co%2Fesirena%2F)">Volver</a>    
+            </button>
+            <button class="btn btn-danger btn-cerrar" (click)="cerrarSession()" routerLink="/auth/login">Cerrar Sesion</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="main-descripcion-botones">
+            <p class="text1">Haz click en "Lista de Expedientes" para poder visualizar los expedientes que tiene a su nombre</p>
+            <p class="text2">Haz click en "Realizar Autogestión" para poder Autogestionar los expedientes que tiene a su nombre</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col main-botones">
+            <button class="btn btn-success form-control" routerLink="autogestiones-realizadas">Lista Expedientes</button>
+            <button class="btn btn-success form-control" routerLink="lista-expedientes">Realizar Autogestión</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,221 @@
+.nombreO {
+    width: 490px;
+    margin-top: 0px !important;
+}
+
+.contenedor-descarga {
+    display: inline-block;
+}
+
+.primero {
+    display: block;
+    text-align: center;
+}
+
+.primero h1 {
+    border: 1px solid gray;
+}
+
+.anadir-obligaciones button {
+    background-color: #28a745;
+}
+
+.btn-añadir-dicamic {
+    margin-top: -102px;
+}
+
+.primero button {
+    background-color: #28a745;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.descargar {
+    width: 500px;
+    height: 30px;
+    padding-left: 5px;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: -15px;
+}
+
+.elemento-file {
+    position: relative;
+    display: inline-block;
+}
+
+.elemento-file::before {
+    background-color: #198754;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: ' Subir Archivos ';
+    /* testo por defecto */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.elemento-file input[type="file"] {
+    opacity: 0;
+    width: 500px;
+    height: 30px;
+    display: inline-block;
+}
+
+#src-file1 {
+    content: 'Seleccionar Archivo 1';
+}
+
+.elemento-buttons {
+    display: flex;
+    // justify-content: space-between;
+    gap: 1em;
+}
+
+.button-group {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.btnMas {
+    margin-left: -100px;
+}
+
+.cabezera {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -17px;
+}
+
+.cabezera button {
+    margin-top: 13px;
+}
+
+pdf-viewer {
+    display: block;
+    height: 55vh;
+    width: 100%;
+}
+
+.contenedor-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px;
+}
+
+.arriba {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    background-color: #28a745;
+    cursor: pointer;
+}
+
+.arriba p {
+    color: white;
+    line-height: 28px;
+    margin-left: 8px;
+}
+
+.arriba svg {
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.bi-pencil-fill {
+    margin-left: 327px;
+}
+
+.arriba p {
+    font-size: 16px;
+}
+
+hr {
+    border: 2px solid red;
+}
+
+.contenedor-main .obligaciones {
+    margin-top: 10px;
+    max-width: 800px;
+    width: 500px;
+}
+
+.contenedor-main .pdf {
+    max-width: 600px;
+    width: 100%;
+    margin-left: 700px;
+    position: fixed;
+}
+
+.obligaciones .nombre-obligacion {
+    width: 100%;
+    height: 30px;
+    background-color: #28a745;
+}
+
+.obligaciones .nombre-obligacion h3 {
+    color: #ffffff;
+    margin: 10px;
+}
+
+.obligaciones .documentos {
+    width: 100%;
+    height: 30px;
+    background-color: #28a745;
+}
+
+.obligaciones .documentos h3 {
+    color: #ffffff;
+    margin: 10px;
+}
+
+.obligaciones .observaciones {
+    width: 100%;
+    height: 30px;
+    background-color: #28a745;
+}
+
+.obligaciones .observaciones h3 {
+    color: #ffffff;
+    margin: 10px;
+}
+
+.input-texarea textarea {
+    width: 100%;
+}
+
+.input-nombre input {
+    width: 100%;
+}
+
+.input-file input {
+    width: 100%;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
+
+.botones-at button:last-child {
+    margin-left: 8px;
+}

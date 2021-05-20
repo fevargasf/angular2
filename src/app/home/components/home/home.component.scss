@@ -1,0 +1,69 @@
+.container {
+    margin-top: 20px !important;
+}
+
+.selects {
+    margin-top: 20px;
+}
+
+.main-botones {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin-top: 300px;
+}
+
+.main-descripcion-botones {
+    display: flex;
+    margin-top: 260px;
+    position: absolute;
+}
+
+.main-descripcion-botones .text2 {
+    margin-left: 50px;
+}
+
+.main-descripcion-botones .text1 {}
+
+.main-botones button {
+    background-color: #28a745;
+}
+
+.datos-inicio {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 10px;
+}
+
+.datos-inicio button {
+    margin: 10px;
+    margin-left: 10px;
+}
+
+.btn-volver {
+    background-color: #28a745;
+    border-color: #28a745;
+    margin-left: 10px;
+}
+
+.btn-cerrar {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+::ng-deep .mat-snack-bar-container {
+    background-color: #28a745;
+    color: white;
+    margin-top: 130px !important;
+    margin-left: 164px !important;
+}
+
+::ng-deep .mat-button-wrapper {
+    color: #034617;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}

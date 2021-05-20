@@ -1,0 +1,26 @@
+<div class="main-table">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Radicado Resolución</th>
+                <th>Fecha</th>
+                <th>Descripción</th>
+                <th>Visualizar PDF</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let resolucion of resoluciones">
+                <td>{{resolucion.id}}</td>
+                <td>{{resolucion.radicado}}</td>
+                <td>{{resolucion.fecha | date: "YYY-MM-dd"}}</td>
+                <td>{{resolucion.descripcion}}</td>
+                <td><a [href]="resolucion.pdf" target="_blank">Ver PDF</a></td>
+            </tr>
+
+            <div *ngIf="isLoading" class="spinner-border" role="status">
+                <span class="sr-only"></span>
+            </div>
+        </tbody>
+    </table>
+</div>

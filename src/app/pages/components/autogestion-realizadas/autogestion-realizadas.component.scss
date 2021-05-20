@@ -1,0 +1,53 @@
+.titulo h1 {
+    text-align: center;
+    font-size: 29px;
+    margin-top: 20px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo button {
+    margin-top: 20px;
+    height: 40px;
+}
+
+table {
+    border-bottom: 2px solid #ccc;
+}
+
+td {
+    font-size: 25px;
+    // border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.border {
+    border: 1px solid #ccc;
+    padding: 25px 0 25px 0;
+}
+
+thead {
+    border-bottom: 1px solid #ccc;
+}
+
+.text-blue {
+    color: #03A0E3 !important;
+}
+
+th {
+    font-size: 20px;
+}
+
+table {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.container-main {}
